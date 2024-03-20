@@ -1,0 +1,48 @@
+
+main{
+    display: flex;
+    gap: 12px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+   
+   img{
+       max-width: 20%;
+   }
+   
+   .infos{
+       display: flex;
+       flex-direction: row;
+       justify-content: start;
+       gap: 6px;
+       max-width: 100%;
+       flex-wrap: wrap;
+   }
+   
+   .card{
+       border: solid 2px;
+       max-width: 50%;
+       border-color: blue;
+       border-radius: 8px;
+       max-width: 34%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 3px;
+       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+       transition: 0.3s;
+       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(165,69,226,1) 35%, rgba(0,212,255,1) 100%);
+   }
+    
+   .firstInfo{
+      font-size: 20px;
+      color: yellow;
+   }
+   
+   .secondInfo{
+       font-size: 20px;
+       color: purple;
+    }
