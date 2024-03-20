@@ -29,7 +29,7 @@ export default function Home({ title, color }) {
             
             {/* presentinho para voces pesquisarem e tentarem entender kk */}
             {personagens.map(personagem => (
-            <Card id={personagem.id} name={personagem.name} gender={personagem.gender} hair={personagem.hair}/>
+            <Card id={personagem.id} image={personagem.image} name={personagem.name} gender={personagem.gender} hair={personagem.hair} />
             ))}
         </>
     )
